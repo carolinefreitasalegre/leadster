@@ -6,7 +6,7 @@ import cartao from "../../../public/no-card-dark.svg";
 import start from "../../../public/rating.svg";
 import station from "../../../public/selo_RD.svg";
 
-export default function Comparativo() {
+export default function Comparative() {
   return (
     <Container>
       <Image src={img} alt="comparativo" />

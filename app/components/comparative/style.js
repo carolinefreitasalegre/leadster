@@ -7,7 +7,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   justify-content: space-evenly;
-  gap: 2rem;
 
   img {
     width: 32rem;
@@ -19,7 +18,8 @@ export const Content = styled.div`
   flex-direction: column;
   line-height: 2.2rem;
   gap: 2px;
-  width: 45%;
+  width: 40%;
+
   h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -29,7 +29,7 @@ export const Content = styled.div`
   }
 
   .line {
-    width: 45%;
+    width: 75%;
     border-bottom: 2px solid #c8d4dd;
   }
 `;
@@ -59,8 +59,8 @@ export const MidiaIndice = styled.div`
   }
 
   img {
-    margin-left: -1.5rem;
-    width: 15rem;
+    margin-left: 1rem;
+    width: 10rem;
     height: 3rem;
   }
 `;
@@ -71,31 +71,39 @@ export const TextImg = styled.div`
   justify-content: start;
   height: 2rem;
   width: 70%;
-  justify-content: space-around;
+  width: 100%;
+  gap: 2px;
 
   p {
+  }
+
+  span {
+    margin-left: -15%;
+  }
+
+  .star-text {
     display: flex;
     align-items: center;
-    width: 31rem;
-    font-weight: 400;
+    justify-content: start;
+    width: 50%;
     font-size: 0.7rem;
-  }
+    gap: 5px;
+    margin-left: 0.2rem;
 
-  img {
-    width: 15%;
-    padding: none;
-    margin: none;
+    img {
+      width: 20%;
+    }
   }
-
-  .star-text,
-  card-text {
+  .card-text {
     display: flex;
     align-items: center;
+    justify-content: start;
+    width: 50%;
+    font-size: 0.7rem;
     gap: 5px;
 
     img {
-      margin-left: 1rem;
-      width: 4rem;
+      width: 5%;
     }
   }
 `;

@@ -1,6 +1,8 @@
 "use client";
-import Comparativo from "./components/comparativo/page";
+import Comparative from "./components/comparative/page";
+import Footer from "./components/footer/page";
 import Header from "./components/header/page";
+import Links from "./components/sectioLinks/page";
 import Section from "./components/section/page";
 
 export default function Home() {
@@ -8,8 +10,9 @@ export default function Home() {
     <main>
       <Header />
       <Section />
-      <Comparativo />
-      jello
+      <Comparative />
+      <Links />
+      <Footer />
     </main>
   );
 }

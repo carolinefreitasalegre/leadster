@@ -1,4 +1,4 @@
-#PProjeto de Landing Page para teste da empresa Leadster.
+#Projeto de Landing Page para teste da empresa Leadster.
 
 A Primeira dificuldade para este este foi aprender uma ferramenta nova em pouco tempo. Eu ainda nao havia usado NextJs nos meus projetos.
   - Apartir daí tive de estudar na nova utilização da rotas, pois há uma pequena (ou não), diferença do React js.

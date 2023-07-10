@@ -4,7 +4,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <head>
-        <link rel="icon" href="/public/favicon.icon" sizes="any" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body>{children}</body>
     </html>

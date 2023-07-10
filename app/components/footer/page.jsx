@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+
 import { Container, Paragraph } from "./style";
 import Link from "next/link";
 

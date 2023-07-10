@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-  height: 1015px;
+  height: 1125px;
   width: 95%;
   display: flex;
   flex-direction: column;
@@ -9,9 +9,12 @@ export const Container = styled.div`
   justify-content: center;
 
   .line {
-    margin-top: 1.2rem;
+    margin-top: 4rem;
     width: 65%;
     border: 1.5px solid #d5d9dd;
+  }
+  a {
+    text-decoration: none;
   }
 `;
 export const Content = styled.div`
@@ -23,6 +26,10 @@ export const Content = styled.div`
 export const ButtonLink = styled.div`
   display: flex;
   gap: 10px;
+
+  a {
+    text-decoration: none;
+  }
 `;
 export const Button = styled.div`
   display: flex;
@@ -52,6 +59,10 @@ export const SelectBtn = styled.div`
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+
+    &:hover {
+      border: 2px solid #0077f4;
+    }
   }
 `;
 

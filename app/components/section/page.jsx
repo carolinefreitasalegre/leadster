@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Container } from "./style";
-import Detalhe from "../../../public/asset-header.svg";
+import Detalhe from "../../../public/assets/asset-header.svg";
 
 export default function Section() {
   return (

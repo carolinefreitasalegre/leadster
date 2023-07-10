@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Content, Midia, TextImg, MidiaIndice } from "./style";
 import Image from "next/image";
-import img from "../../../public/comparativo_img_CTA.svg";
-import cartao from "../../../public/no-card-dark.svg";
-import start from "../../../public/rating.svg";
-import station from "../../../public/selo_RD.svg";
+import img from "../../../public/assets/comparativo_img_CTA.svg";
+import cartao from "../../../public/assets/no-card-dark.svg";
+import start from "../../../public/assets/rating.svg";
+import station from "../../../public/assets/selo_RD.svg";
 
 export default function Comparative() {
   return (

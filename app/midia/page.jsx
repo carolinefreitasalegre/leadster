@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import {
   Container,
@@ -27,11 +29,21 @@ export default function Midia() {
     <Container>
       <Content>
         <ButtonLink>
-          <Button>Agência</Button>
-          <Button>Chatbox</Button>
-          <Button>Marketing Digital</Button>
-          <Button>Geração de Leads</Button>
-          <Button>Midia Page</Button>
+          <Link href="/agencias">
+            <Button>Agência</Button>
+          </Link>
+          <Link href="/chatbot">
+            <Button>Chatbot</Button>
+          </Link>
+          <Link href="/geracaoleads">
+            <Button>Marketing Digital</Button>
+          </Link>
+          <Link href="/marketing">
+            <Button>Geração de Leads</Button>
+          </Link>
+          <Link href="/midiapage">
+            <Button>Midia Page</Button>
+          </Link>
         </ButtonLink>
         <SelectBtn>
           Ordernar por

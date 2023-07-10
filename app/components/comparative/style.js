@@ -56,6 +56,13 @@ export const MidiaIndice = styled.div`
     font-weight: 600;
     height: 3rem;
     width: 14rem;
+    transition: all 0.8s;
+
+    &:hover {
+      background-color: white;
+      color: #0083ff;
+      border: 2px solid #0083ff;
+    }
   }
 
   img {

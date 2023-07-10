@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import { Container, Content, Midia, TextImg, MidiaIndice } from "./style";
+import { Container, Content, MidiaIndice, TextImg, Midia } from "./style";
 import Image from "next/image";
 import img from "../../../public/assets/comparativo_img_CTA.svg";
 import cartao from "../../../public/assets/no-card-dark.svg";

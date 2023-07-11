@@ -47,6 +47,7 @@ export const CardMedia = styled.div`
     color: #1c3c50;
     padding: 5px;
     margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
     font-weight: 600;
   }
 `;

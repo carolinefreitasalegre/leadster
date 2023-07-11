@@ -9,13 +9,13 @@ import Midia from "./midia/page";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Header />
       <Section />
       <Midia />
       <Comparative />
       <Links />
       <Footer />
-    </main>
+    </>
   );
 }

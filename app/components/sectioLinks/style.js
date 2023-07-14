@@ -60,6 +60,11 @@ export const List = styled.div`
   a {
     text-decoration: none;
     color: grey;
+    transition: 0.5s;
+
+    &:hover {
+      color: #1e8eff;
+    }
   }
 `;
 export const Pages = styled.div`

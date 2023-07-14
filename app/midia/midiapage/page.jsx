@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, Container, CardContent, CardMedia } from "./style";
+import { Container, CardContent, Card, CardMedia } from "./style";
 import Image from "next/image";
 import dados from "../../../public/Json/dados.json";
 

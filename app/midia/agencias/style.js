@@ -39,6 +39,7 @@ export const CardMedia = styled.div`
   width: 18rem;
   height: 15rem;
   gap: 5px;
+  text-decoration: none;
 
   border-radius: 0 0 10px 10px;
   box-shadow: 2px 2px 20px grey;
